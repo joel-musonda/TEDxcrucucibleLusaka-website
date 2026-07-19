@@ -1,22 +1,18 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import MainContent from './components/MainContent';
+// 1. Import the Footer component
+import Footer from './components/Footer'; 
 
 function App() {
   return (
-    // We add the 'relative' class so the fixed background glow stays positioned correctly
-    <div className="relative min-h-screen">
-      {/* 1. Dynamic Background Glow */}
-      <div className="bg-crucible-glow" aria-hidden="true" />
-
-      {/* 2. Navigation Bar */}
+    <div className="bg-black min-h-screen text-white">
       <Navbar />
-
-      {/* 3. Main Content Area */}
-      <main className="z-10 relative">
-        <Hero />
-        {/* We can add future sections like Speakers and Program here */}
-      </main>
+      <Hero />
+      <MainContent />
+      {/* 2. Mount it right at the absolute bottom */}
+      <Footer /> 
     </div>
   );
 }

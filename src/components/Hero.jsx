@@ -54,14 +54,14 @@ export default function Hero() {
             variants={itemVariants} 
             className="inline-block bg-ted-red text-white text-[10px] font-extrabold px-3 py-1.5 tracking-[0.2em] uppercase"
           >
-            THEME: THE CRUCIBLE
+            THEME: 
           </motion.div>
 
           <motion.h1 
             variants={itemVariants} 
             className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.05]"
           >
-            TED<span className="text-ted-red">x</span>CrucibleLusaka:<br />
+            TED<span className="text-ted-red">x</span>CrucibleLusaka<br />
             <span className="text-ted-red">Ideas Worth Spreading</span>
           </motion.h1>
 
