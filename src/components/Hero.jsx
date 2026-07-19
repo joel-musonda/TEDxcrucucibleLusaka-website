@@ -48,9 +48,14 @@ export default function Hero() {
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="space-y-6 md:space-y-8 w-full lg:w-[58%] text-left lg:mb-4"
+          className="space-y-10 md:space-y-8 w-full lg:w-[58%] text-left lg:mb-4"
         >
-         
+          <motion.div 
+            variants={itemVariants} 
+            className="inline-block  text-white text-[10px] font-extrabold px-3 py-8 tracking-[0.2em] uppercase"
+          >
+      
+          </motion.div>
 
           <motion.h1 
             variants={itemVariants} 
