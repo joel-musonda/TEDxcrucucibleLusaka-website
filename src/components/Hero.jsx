@@ -50,12 +50,7 @@ export default function Hero() {
           animate="visible"
           className="space-y-6 md:space-y-8 w-full lg:w-[58%] text-left lg:mb-4"
         >
-          <motion.div 
-            variants={itemVariants} 
-            className="inline-block bg-ted-red text-white text-[10px] font-extrabold px-3 py-1.5 tracking-[0.2em] uppercase"
-          >
-            THEME: 
-          </motion.div>
+         
 
           <motion.h1 
             variants={itemVariants} 
