@@ -1,8 +1,6 @@
 # TEDxCrucibleLusaka Website
 
-<p align="center">
-  <img src="./src/assets/Screenshot_2026-07-20_13-41-37.png" alt="TEDx Crucible Lusaka" width="120"/>
-</p>
+  <img src="./src/assets/Screenshot_2026-07-20_13-41-37.png" alt="TEDx Crucible Lusaka" />
 
 <p align="center">
   Official website for <strong>TEDxCrucibleLusaka</strong>, built with React, Tailwind CSS, Framer Motion, and Web3Forms.
