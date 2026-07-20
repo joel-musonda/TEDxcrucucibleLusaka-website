@@ -1,7 +1,7 @@
 # TEDxCrucibleLusaka Website
 
 <p align="center">
-  <img src="./public/logo.png" alt="TEDx Crucible Lusaka" width="120"/>
+  <img src="./src/assets/Screenshot_2026-07-20_13-41-37.png" alt="TEDx Crucible Lusaka" width="120"/>
 </p>
 
 <p align="center">
